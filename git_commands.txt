@@ -1,10 +1,15 @@
 Git commands
 Git  init : to initialise a repo
+Git remote add origin https://github.com/manishjathan/GitCommands.git : To add a remote origin to working local git project
+Git remote -v :  to get the url’s related to push and fetch
+
+Git push origin master : Push the committed files to the origin url mentioned  I.e GitCommands.git and to the master branch
+
 Git status : to see the status of the untracked, committed and changed files
 Git add . / Git add filename : to add the files to staging area
 Git commit -m “message for commit” :  to commit the files from staging area, a snapshot is created
-Git global —config user.email “Your emailId” :  to set the user email Git global —config user.name “Your name” :  to set the user name
-Git restore —staged filename : to remove the file from the staged area
+
+Git global —config user.email “Your emailId” :  to set the user email \Git global —config user.name “Your name” :  to set the user nameGit restore —staged filename : to remove the file from the staged area
 Git log : to check the history of commits
 Git reset <commit hashcode>:  to reset the git commit to the mentioned stage or hashcode. Removing all the above commits to unstaged area.
 Example : 
@@ -28,6 +33,11 @@ Unstaged area will contain the following changes
 Changed file content of names.txt
 Made some deletions to names.txt
 
+Git remote add origin https://github.com/manishjathan/GitCommands.git : To add a remote origin to working local git project
+Git remote -v :  to get the url’s related to push and fetch
 
+Git push origin master : Push the committed files to the origin url mentioned  I.e GitCommands.git and to the master branch
 
+Create access token for git https command
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#using-a-token-on-the-command-line
 
