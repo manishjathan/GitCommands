@@ -41,3 +41,10 @@ Git push origin master : Push the committed files to the origin url mentioned  I
 Create access token for git https command
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#using-a-token-on-the-command-line
 
+## To Create Git Branch
+
+Git branch branch name
+Git checkout branch name
+
+
+
