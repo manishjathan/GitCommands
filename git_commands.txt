@@ -46,5 +46,10 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/c
 Git branch branch name
 Git checkout branch name
 
+For Local configuration
+git config user.name manish-jathan-aera
+git config user.email manish.jathan@aeratechnology.com
+
+
 
 
